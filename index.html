@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="main.js" defer></script>
+		<title>Bioderma test</title>
+	</head>
+	<body>
+		<main>
+			<div>
+				<button class="btn active" onclick="gridView(this)">
+					<div include="./assets/images/grid.svg"></div>
+				</button>
+				<button class="btn" onclick="listView(this)">
+					<div include="./assets/images/list.svg"></div>
+				</button>
+			</div>
+			<div
+				id="product_grid"
+				class="product-grid"
+				include="./product-grid.html"
+			>
+			</div>
+		</main>
+	</body>
+</html>
